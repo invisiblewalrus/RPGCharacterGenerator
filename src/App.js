@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import { rollStat, genRandomDnDChar } from './CharacterGeneraton';
+import { genRandomDnDChar } from './CharacterGen/DnDCharacterGeneraton';
+import { CharacterCard } from './CharacterCard';
 
 function App() {
-  console.log(genRandomDnDChar());
-  let stat = rollStat();
+  let character = genRandomDnDChar();
+  
   return (
-  <div>{stat}</div>
+    <CharacterCard character={character} />
   );
 }
 
