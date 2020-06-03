@@ -1,0 +1,13 @@
+.main {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.title {
+    color: rgb(106, 87, 156);
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(189, 177, 255);
+}
